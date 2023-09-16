@@ -1,28 +1,79 @@
 .container{
     display: flex;
-    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    /* background-color: lightblue; */
 }
-
+.topNav{
+    border: 2px solid orange;
+    margin-top: -8px;
+}
 .hnavbar {
     display: flex;
-    /* background-color: red; */
     justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
 }
-
+.list{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+}
 .hnavbar img{
-    /* background-color: yellow; */
-    width: 100px;
-    height: 50px;
+    width: 175px;
+    height: 41px;
+    margin-left: 5px;
+    margin-top: 1px;
 }
 
-.hnavbar li{
-    /* background-color: green; */
-    list-style: none;
+.search{
+    width: 60%;
+    display: flex;
     
 }
-
+.search input{
+    width: 95%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.buttons{
+    width: 10%;
+}
+.hnavbar li{
+    list-style: none;
+}
 .hnavbar a{
-    /* background-color: blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: darkslategray    ;
+    font-weight: 200;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttons input{
+    margin-left: -85px;
+    height: 36px;
+    width: 48%;
+    border: .5px solid lightgray;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.log{
+    background-color: #e1ecf4;
+}
+.sign{
+    background-color: #0A95FF;
+    color: white;
+
 }
