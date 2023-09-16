@@ -29,12 +29,12 @@
 }
 
 .search{
-    width: 60%;
+    width: 55%;
     display: flex;
     
 }
 .search input{
-    width: 95%;
+    width: 99%;
     height: 38px;
     border-radius: 5px;
     border: 1px solid lightgray;
@@ -42,6 +42,7 @@
     font-size: larger;
 }
 .buttons{
+    display: flex;
     width: 10%;
 }
 .hnavbar li{
@@ -57,11 +58,11 @@
 }
 .buttons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .buttons input{
-    margin-left: -85px;
+    
     height: 36px;
     width: 48%;
     border: .5px solid lightgray;
