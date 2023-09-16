@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    /* background-color: black; */
+}
+
+.hnavbar {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-evenly;
+}
+
+.hnavbar img{
+    /* background-color: yellow; */
+    width: 100px;
+    height: 50px;
+}
+
+.hnavbar li{
+    /* background-color: green; */
+    list-style: none;
+    
+}
+
+.hnavbar a{
+    /* background-color: blue; */
+    text-decoration: none;
+    color: black;
+}
