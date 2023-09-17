@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="stackFavicon.png">
     <title>Stack Overflow</title>
 </head>
 <hr class="topNavLine">
@@ -25,7 +26,7 @@
             </div>
         </div>
         <hr class="topBottomNavLine">
-    
+        <div class="mainPage">
         <div class="vnavbar">
             <ul>
                 <li class="home"><a href="#">Home</a></li>
@@ -39,8 +40,44 @@
                 <li class="public">LABS</li>
                 <li class="submenu"><a href="#">Discussions</a></li>
             </ul>
-
         </div>
+        
+        <div class="sideContent"> <!--this has two div ques and belowMainQu -->
+            <div class="quAndBut">
+        <div class="ques">
+            <p class="main_qu">How to parse dates with -0400 timezone string in Python?</p>
+            
+            <p class="text_below">Asked 14 years, 2 months ago &nbsp; &nbsp; 
+                Modified 4 years, 11 months ago &nbsp; &nbsp;  
+                Viewed 105k times</p>
+            </div>
+            <input class="askButton" type="button" value="Ask Question">
+        </div>
+        <hr>
+        <div class="belowMainQu">  <!--this has two div elebroateQue and rightContent -->
+        <div class="elebroateQue">
+            <p> I have a date string of the form '2009/05/13 19:19:30 -0400'. It seems that previous versions of Python may have supported a %z format tag in strptime for the trailing timezone specification, but 2.6.x seems to have removed that.</p>
+            <br>
+            What's the right way to parse this string into a datetime object?
+        </div>
+        <div class="rightContent">
+                <p class="tableHeading">The Overflow Blog</p>
+               <hr>
+                <p><a href="#">Multiplayer programming on mobile: a chat with Replit CEO Amjad Masad</a></p>
+            <hr>
+            <p class="tableHeading">Featured on Meta</p>
+            <hr>
+            <p><a href="#">Sunsetting Winter/Summer Bash: Rationale and Next Steps</a></p>
+            <p><a href="#">
+                Expanding Discussions: Let's talk about flag reasons</a></p>
+            <p><a href="#">Collectives Updates to the Community Bulletin in the Right Sidebar</a></p>
+            <p><a href="#"></a>Temporary policy: Generative AI (e.g., ChatGPT) is banned</p>
+            <p><a  href="#" ></a>
+                OverflowAI Search is now available for alpha testing (September 13, 2023)</p>
+        </div>
+    </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>
